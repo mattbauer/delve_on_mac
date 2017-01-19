@@ -13,7 +13,7 @@ $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/inst
 2. Install golang  
 $ brew install go
 
-3. Set the go environment up in ~/.bash_profile
+3. Set the go environment up in ~/.bash_profile  
 export GOPATH=$HOME/go  
 export PATH=$GOPATH/bin:$PATH
 
