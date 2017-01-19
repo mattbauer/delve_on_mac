@@ -17,7 +17,7 @@ $ brew install go
 export GOPATH=$HOME/go  
 export PATH=$GOPATH/bin:$PATH
 
-4.Then, open a new terminal window and install delve and the delve patch:  
+4. Then, open a new terminal window and install delve and the delve patch:  
 $ brew install go-delve/delve/delve
 
 5. Install the delve source code and patch (replace user.name with your username)  
