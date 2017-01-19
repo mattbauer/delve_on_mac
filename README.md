@@ -35,12 +35,9 @@ $ cd ~/go/src/github.com/aaronhackney
 $ git clone https://github.com/aaronhackney/delve_on_mac.git  
 $ cd delve_on_mac  
 
-7. Test by debugging an application 
-   
+7. Test by debugging an application  
 ~/go/bin/dlv debug hello.go  
-  
 If delve is working, you should see:  
-  
  Type 'help' for list of commands.  
  (dlv)
 
