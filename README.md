@@ -6,8 +6,7 @@ Mac OSX 10.12.1+ introduced some caveats that may prevent the delve debugger fro
 All of the following commands are to be run from a terminal window as an unprivledged user. You may get prompted for sudo credentials; this is expected.
 
 # Install Brew and Go  
-1. Install brew: http://brew.sh/
-
+1. Install brew: http://brew.sh/  
 $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 2. Install golang  
