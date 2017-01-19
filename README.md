@@ -33,7 +33,7 @@ $ CERT=dlv-cert make install
 $ mkdir -p ~/go/src/github.com/aaronhackney  
 $ cd ~/go/src/github.com/aaronhackney  
 $ git clone https://github.com/aaronhackney/delve_on_mac.git  
-$ cd delve_on_mac.git  
+$ cd delve_on_mac  
 
 7. Test by debugging an application  
 If delve is working, you should see:  
