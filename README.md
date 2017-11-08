@@ -42,7 +42,7 @@ If delve is working, you should see:
  (dlv)
 
 #Tips and Tricks
-- Some end point protection software like CrowdStrike Falcon host will see delve's attempts to control threads for debugging purposes as a threat and will prevent it from running. Before you spend too much time fighting an issue like "timeout waiting for thread", disable end point protection software and work with your end point protection software vendor to come up with a solution.
+- Some end point protection software like CrowdStrike Falcon Host will see delve's attempts to control threads for debugging purposes as a threat and will prevent it from running. Before you spend too much time fighting an issue like "timeout waiting for thread", disable end point protection software and work with your end point protection software vendor to come up with a solution. Update: CrowdStrike Falcon Host in the upcoming 3.10 release works properly with this Delve.
 
 - If it delve does not work, you will see something about waiting for a thread to stop or a thread error of some kind.
 
